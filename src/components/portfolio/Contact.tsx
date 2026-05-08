@@ -54,7 +54,7 @@ export function Contact() {
                 </div>
               </a>
             ))}
-            <a href="/cv.pdf" download className="block">
+            <a href="/thanh_cv.pdf" download className="block">
               <Button size="lg" variant="outline" className="w-full gap-2 h-14 text-base">
                 <Download className="w-5 h-5" /> Tải Portfolio / CV (PDF)
               </Button>

@@ -8,6 +8,7 @@ import { Skills } from "@/components/portfolio/Skills";
 import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
 import { FadeInSection } from "@/components/FadeInSection";
+import { Scenario } from "@/components/portfolio/Scenario";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -15,7 +16,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <Header />
       <main>
         <FadeInSection direction="down">
@@ -32,6 +33,9 @@ function Index() {
         </FadeInSection>
         <FadeInSection direction="right">
           <Skills />
+        </FadeInSection>
+        <FadeInSection direction="left">
+          <Scenario />
         </FadeInSection>
         <FadeInSection direction="up">
           <Contact />

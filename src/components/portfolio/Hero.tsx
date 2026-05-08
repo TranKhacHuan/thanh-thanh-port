@@ -33,7 +33,7 @@ export function Hero() {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3 justify-center lg:justify-start">
-              <a href="/cv.pdf" download>
+              <a href="/thanh_cv.pdf" download>
                 <Button size="lg" className="gap-2 shadow-[var(--shadow-soft)]">
                   <Download className="w-4 h-4" /> Tải CV
                 </Button>

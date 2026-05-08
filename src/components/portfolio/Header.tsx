@@ -30,7 +30,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <a href="/cv.pdf" download className="hidden sm:inline-flex">
+          <a href="/thanh_cv.pdf" download className="hidden sm:inline-flex">
             <Button size="sm" className="gap-2">
               <Download className="w-4 h-4" /> Tải CV
             </Button>
@@ -57,7 +57,7 @@ export function Header() {
                 {l.label}
               </a>
             ))}
-            <a href="/cv.pdf" download>
+            <a href="/thanh_cv.pdf" download>
               <Button size="sm" className="w-full gap-2">
                 <Download className="w-4 h-4" /> Tải CV
               </Button>
