@@ -7,7 +7,7 @@ export function Scenario() {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="max-w-2xl mx-auto text-center mb-16">
           <div className="text-xs uppercase tracking-[0.2em] text-primary font-medium">Case Study</div>
-          <h2 className="font-serif text-4xl md:text-5xl mt-3">Tình huống giả định</h2>
+          <h2 className="text-4xl md:text-5xl mt-3">Tình huống giả định</h2>
           <p className="mt-4 text-muted-foreground">
             Phân tích chiến lược giải quyết vấn đề và đề xuất giải pháp dựa trên một tình huống kinh doanh giả định.
           </p>
@@ -18,7 +18,7 @@ export function Scenario() {
             <div className="flex flex-col md:flex-row gap-10 items-start">
               <div className="flex-1 space-y-8">
                 <div>
-                  <h3 className="text-2xl font-serif mb-4 flex items-center gap-2">
+                  <h3 className="text-2xl mb-4 flex items-center gap-2">
                     <Target className="w-6 h-6 text-primary" />
                     Bối cảnh tình huống
                   </h3>
@@ -28,7 +28,7 @@ export function Scenario() {
                 </div>
 
                 <div>
-                  <h3 className="text-2xl font-serif mb-4 flex items-center gap-2">
+                  <h3 className="text-2xl mb-4 flex items-center gap-2">
                     <Lightbulb className="w-6 h-6 text-primary" />
                     Nội dung nổi bật
                   </h3>
@@ -54,7 +54,7 @@ export function Scenario() {
                 <div className="w-20 h-20 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 text-primary shadow-inner">
                   <FileText className="w-10 h-10" />
                 </div>
-                <h4 className="font-serif text-xl mb-2">Bản thuyết trình</h4>
+                <h4 className="text-xl mb-2">Bản thuyết trình</h4>
                 <p className="text-sm text-muted-foreground mb-8">
                   Tài liệu PDF chi tiết bao gồm slide thuyết trình và số liệu minh họa.
                 </p>

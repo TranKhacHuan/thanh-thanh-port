@@ -24,7 +24,7 @@ export function Experience() {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="max-w-2xl mx-auto text-center">
           <div className="text-xs uppercase tracking-[0.2em] text-primary font-medium">Hành trình</div>
-          <h2 className="font-serif text-4xl md:text-5xl mt-3">Kinh nghiệm</h2>
+          <h2 className="text-4xl md:text-5xl mt-3">Kinh nghiệm</h2>
           <p className="mt-4 text-muted-foreground">
             Từ tư vấn bán hàng đến giảng dạy và quản lý chuyên môn — một lộ trình gắn liền với người bệnh và sản phẩm.
           </p>
@@ -38,7 +38,7 @@ export function Experience() {
                 <span className="absolute left-4 -translate-x-1/2 top-5 w-3 h-3 rounded-full bg-primary ring-4 ring-background" />
                 <div className="rounded-2xl border border-border bg-card p-5 md:p-6 shadow-sm hover:shadow-[var(--shadow-soft)] transition-shadow">
                   <div className="text-xs font-medium text-primary uppercase tracking-wider">{it.period}</div>
-                  <h3 className="font-serif text-xl md:text-2xl mt-1.5">{it.role}</h3>
+                  <h3 className="text-xl md:text-2xl mt-1.5">{it.role}</h3>
                   <p className="text-sm text-muted-foreground mt-2 flex items-center gap-1.5">
                     <Briefcase className="w-3.5 h-3.5" />
                     {it.org}

@@ -29,7 +29,7 @@ export function Contact() {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="max-w-2xl mx-auto text-center">
           <div className="text-xs uppercase tracking-[0.2em] text-primary font-medium">Liên hệ</div>
-          <h2 className="font-serif text-4xl md:text-6xl mt-3 leading-tight">
+          <h2 className="text-4xl md:text-6xl mt-3 leading-tight">
             Hãy làm việc <span className="italic text-primary">cùng nhau</span>
           </h2>
           <p className="mt-4 text-muted-foreground">

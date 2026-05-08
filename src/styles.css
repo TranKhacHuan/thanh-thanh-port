@@ -152,7 +152,7 @@
     font-family: 'Poppins', ui-sans-serif, system-ui, sans-serif;
   }
 
-  h1, h2, h3, .font-serif {
+  h1, h2, h3 {
     font-family: 'Poppins', ui-sans-serif, sans-serif;
     letter-spacing: -0.01em;
   }

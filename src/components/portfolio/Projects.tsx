@@ -80,7 +80,7 @@ export function Projects() {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="max-w-2xl mx-auto text-center">
           <div className="text-xs uppercase tracking-[0.2em] text-primary font-medium">Portfolio</div>
-          <h2 className="font-serif text-4xl md:text-5xl mt-3">Dự án của tôi</h2>
+          <h2 className="text-4xl md:text-5xl mt-3">Dự án của tôi</h2>
           <p className="mt-4 text-muted-foreground">
             Hai dự án thực chiến — từ vận hành điểm bán đến chiến dịch trade marketing chuyển hóa thành doanh số.
           </p>
@@ -109,10 +109,10 @@ export function Projects() {
 
               <div className={`lg:col-span-3 ${idx % 2 === 1 ? "lg:order-1" : ""}`}>
                 <div className="flex items-baseline gap-4">
-                  <span className="font-serif text-5xl md:text-6xl text-primary/30">{p.no}</span>
+                  <span className="text-5xl md:text-6xl text-primary/30">{p.no}</span>
                   <div className="h-px flex-1 bg-border" />
                 </div>
-                <h3 className="font-serif text-2xl md:text-3xl mt-4 leading-tight">{p.title}</h3>
+                <h3 className="text-2xl md:text-3xl mt-4 leading-tight">{p.title}</h3>
 
                 <div className="flex flex-wrap gap-2 mt-4">
                   {p.tags.map((t) => (

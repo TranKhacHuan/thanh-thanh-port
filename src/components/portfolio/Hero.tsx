@@ -20,7 +20,7 @@ export function Hero() {
               Pharmaceutical Product Manager
             </div>
 
-            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-[4.25rem] leading-[1.05] mt-5">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[4.25rem] leading-[1.05] mt-5">
               Pharmaceutical
               <span className="block bg-gradient-to-r from-primary to-[var(--primary-glow)] bg-clip-text text-transparent">
                 Product Manager
@@ -29,7 +29,7 @@ export function Hero() {
             </h1>
 
             <p className="mt-6 text-base sm:text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0">
-              <span className="font-serif italic text-foreground/90">Nguyễn Thị Thanh</span> — Dược sĩ, Giảng viên Dược lý &amp; Thạc sĩ Quản lý Dược.
+              <span className="italic text-foreground/90">Nguyễn Thị Thanh</span> — Dược sĩ, Giảng viên Dược lý &amp; Thạc sĩ Quản lý Dược.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3 justify-center lg:justify-start">
@@ -52,7 +52,7 @@ export function Hero() {
                 { v: "90%+", l: "Đạt KPI doanh số" },
               ].map((s) => (
                 <div key={s.l} className="text-center lg:text-left">
-                  <div className="font-serif text-2xl sm:text-3xl text-primary">{s.v}</div>
+                  <div className="text-2xl sm:text-3xl text-primary">{s.v}</div>
                   <div className="text-[11px] sm:text-xs text-muted-foreground mt-1">{s.l}</div>
                 </div>
               ))}
@@ -66,7 +66,7 @@ export function Hero() {
             </div>
             <div className="absolute -bottom-5 -left-5 bg-card border border-border rounded-2xl px-4 py-3 shadow-[var(--shadow-soft)] hidden sm:block">
               <div className="text-[10px] uppercase tracking-wider text-muted-foreground">Pharmacist</div>
-              <div className="font-serif text-sm">Thanh Thanh</div>
+              <div className="text-sm">Thanh Thanh</div>
             </div>
           </div>
         </div>

@@ -18,7 +18,7 @@ export function Header() {
           <span className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-[var(--primary-glow)] grid place-items-center text-primary-foreground shadow-[var(--shadow-soft)]">
             <Pill className="w-5 h-5" />
           </span>
-          <span className="font-serif font-semibold text-lg">Thanh Thanh</span>
+          <span className="font-semibold text-lg">Thanh Thanh</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-8">

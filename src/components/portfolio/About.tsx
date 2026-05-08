@@ -33,7 +33,7 @@ export function About() {
 
           <div className="order-1 lg:order-2">
             <div className="text-xs uppercase tracking-[0.2em] text-primary font-medium">Giới thiệu</div>
-            <h2 className="font-serif text-4xl md:text-5xl mt-3 leading-tight">
+            <h2 className="text-4xl md:text-5xl mt-3 leading-tight">
               Nguyễn Thị <span className="italic text-primary">Thanh</span>
             </h2>
 
@@ -49,7 +49,7 @@ export function About() {
               ].map((it) => (
                 <div key={it.title} className="rounded-2xl border border-border bg-card p-5 hover:shadow-[var(--shadow-soft)] hover:-translate-y-1 transition-all duration-300">
                   <it.icon className="w-6 h-6 text-primary mb-3" />
-                  <div className="font-serif text-lg leading-tight">{it.title}</div>
+                  <div className="text-lg leading-tight">{it.title}</div>
                   <div className="text-xs text-muted-foreground mt-1">{it.sub}</div>
                 </div>
               ))}
